@@ -57,12 +57,6 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Stripe Payment",
-    Image: "/stripe.webp",
-    width: 80,
-    height: 80,
-  },
-  {
     name: "Node js",
     Image: "/node-js.png",
     width: 80,
@@ -78,16 +72,12 @@ export const SkillData = [
 
 export const Socials = [
   {
-    name: "Discord",
-    src: "/instagram.svg",
-  },
-  {
-    name: "Facebook",
-    src: "/facebook.svg",
+    name: "LinkedIn",
+    src: "/linkedin.svg",
   },
   {
     name: "Instagram",
-    src: "/discord.svg",
+    src: "/instagram.svg",
   },
 ];
 
@@ -96,21 +86,29 @@ export const Projects = [
     title: "Modern Nextjs Website",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
     src: "/NextWebsite.png",
+    urlProject: "https://alive2020.github.io/my_portfolio/",
+    urlGithub: "https://github.com/alive2020/next-portfolio",
   },
   {
     title: "Space Themed Website",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
     src: "/SpaceWebsite.png",
+    urlProject: "https://alive2020.github.io/my_portfolio/",
+    urlGithub: "https://github.com/alive2020/next-portfolio",
   },
   {
-    title: "Modern Nextjs Portfolio",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Nextjs Portfolio",
+    text: "Frontend Engineer Portfolio on Next.js / Typescript / Tailwind / Framer Motion",
     src: "/WebPortfolio.png",
+    urlProject: "https://alive2020.github.io/my_portfolio/",
+    urlGithub: "https://github.com/alive2020/next-portfolio",
   },
   {
     title: "Matrix themed Website",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
     src: "/Matrix.png",
+    urlProject: "https://alive2020.github.io/my_portfolio/",
+    urlGithub: "https://github.com/alive2020/next-portfolio",
   },
 ];
 

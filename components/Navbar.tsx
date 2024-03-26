@@ -12,11 +12,11 @@ const Navbar = () => {
           Dev{" "}
         </span>
       </h1>
-      <div className="flex gap-5 mb-2">
-        {Socials.map((social) => (
+      <div className="flex items-center gap-5 mb-2">
+        {Socials.map((social, index) => (
           <Image
-            key={social.name}
             src={social.src}
+            key={social.name}
             alt={social.name}
             width={28}
             height={28}

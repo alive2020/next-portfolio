@@ -9,13 +9,13 @@ export default function Home() {
       <div
         className="flex items-center w-full h-full bg-cover bg-center"
         style={{
-          backgroundImage: "url(/main-bg.webp)",
+          backgroundImage: "url(/dune1.jpg)",
         }}
       >
         <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
           <h1 className="text-[50px] text-white font-semibold">
             Hi, I'm Ice{" "}
-            <p className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            <p className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
               {" "}
               Frontend Engineer{" "}
             </p>
@@ -33,14 +33,14 @@ export default function Home() {
             </Link>
             <Link
               href="/my-projects"
-              className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+              className="rounded-[20px] group relative bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
               My projects
             </Link>
             <Link
               href="/contact-me"
-              className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+              className="rounded-[20px] group relative bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
               Contact me
@@ -52,43 +52,36 @@ export default function Home() {
       <div className="absolute flex bottom-10 z-[20] right-5 flex-col md:hidden gap-5">
         <Link
           href="/my-skills"
-          className="rounded-[20px] group bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+          className="rounded-[20px] group bg-blue-500 px-5 py-3 text-lg text-white max-w-[200px]"
         >
           Learn more
         </Link>
         <Link
           href="/my-projects"
-          className="rounded-[20px] group bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+          className="rounded-[20px] group bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
         >
           My projects
         </Link>
         <Link
           href="/contact-me"
-          className="rounded-[20px] group bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+          className="rounded-[20px] group bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
         >
           Contact me
         </Link>
       </div>
-      <div className="absolute bottom-0 right-0 z-[10]">
+      <div
+        className="absolute bottom-[30%] right-[5%]  z-[10] bg-gradient-to-b 
+       from-gray-500 rounded-full overflow-hidden mt-5 md:h-72 md:w-72"
+      >
         <Image
-          src="/my.png"
+          src="/myimg.png"
           alt=""
-          height={300}
-          width={300}
-          className="absolute right-55 top-40"
+          width={400}
+          height={400}
+          className="hidden md:block"
         />
-        <Image src="/cliff.webp" alt="" width={480} height={480} />
       </div>
 
-      <div className="absolute bottom-0 z-[5] w-full h-auto">
-        <Image
-          src="/trees.webp"
-          alt="trees"
-          width={2000}
-          height={2000}
-          className="w-full h-full"
-        />
-      </div>
       <Image
         src="/stars.png"
         alt="stars"
