@@ -19,16 +19,6 @@ const ContactForm = () => {
     setError(false);
     setSuccess(false);
 
-    // emailjs.sendForm(serviceId, templateId, form.current, publicKey).then(
-    //   () => {
-    //     console.log("form", form.current);
-    //     setSuccess(true);
-    //     form?.current?.reset();
-    //   },
-    //   () => {
-    //     setError(true);
-    //   }
-    // );
     if (form.current) {
       emailjs.sendForm(serviceId, templateId, form.current, publicKey).then(
         () => {
@@ -40,7 +30,7 @@ const ContactForm = () => {
         }
       );
     } else {
-      setError(true); // Handle the case where form.current is null
+      setError(true);
     }
   };
 
@@ -77,7 +67,7 @@ const ContactForm = () => {
         Send a message
       </button>
       {success && (
-        <p className="text-green-600 font-semibold">
+        <p className="text-white font-semibold">
           Your message has been sent successfully!
         </p>
       )}

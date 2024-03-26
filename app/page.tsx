@@ -9,7 +9,7 @@ export default function Home() {
       <div
         className="flex items-center w-full h-full bg-cover bg-center"
         style={{
-          backgroundImage: "url(/dune1.jpg)",
+          backgroundImage: "url(/dune3.jpg)",
         }}
       >
         <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
