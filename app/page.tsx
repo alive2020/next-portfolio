@@ -15,7 +15,7 @@ export default function Home() {
         <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
           <h1 className="text-[50px] text-white font-semibold">
             Hi, I'm Ice{" "}
-            <p className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
+            <p className="text-transparent bg-clip-text bg-gradient-to-r  from-red-100 to-indigo-400 ">
               {" "}
               Frontend Engineer{" "}
             </p>
@@ -27,7 +27,7 @@ export default function Home() {
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
               href="/my-skills"
-              className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+              className="rounded-[20px] group relative bg-purple-900 hover:bg-purple-400 px-5 py-3 text-lg text-white max-w-[200px]"
             >
               Learn more
             </Link>

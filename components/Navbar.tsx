@@ -9,7 +9,7 @@ const Navbar = () => {
       <Link href="/">
         <h1 className="text-white text-[25px] font-semibold">
           Ice{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r  from-zinc-400 to-red-500">
             {" "}
             Dev{" "}
           </span>
@@ -17,13 +17,21 @@ const Navbar = () => {
       </Link>
       <div className="flex items-center gap-5 mb-2">
         {Socials.map((social, index) => (
-          <Image
-            src={social.src}
+          <a
             key={social.name}
-            alt={social.name}
-            width={28}
-            height={28}
-          />
+            href={social.link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src={social.src}
+              key={social.name}
+              alt={social.name}
+              width={28}
+              height={28}
+              className="transition duration-300 ease-in-out transform hover:scale-110"
+            />
+          </a>
         ))}
       </div>
     </div>

@@ -38,8 +38,8 @@ const Navigation = () => {
         <Link key={nav.name} href={nav.link} className="mb-16 pl-4 min-w-[20%]">
           <nav.icon
             className={`w-[24px] h-[24px] ${
-              path === nav.name ? "text-purple-800" : "text-white"
-            }`}
+              path === nav.name ? "text-purple-300" : "text-white"
+            } hover:scale-110`}
           />
         </Link>
       ))}

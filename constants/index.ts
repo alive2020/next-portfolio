@@ -74,39 +74,41 @@ export const Socials = [
   {
     name: "LinkedIn",
     src: "/linkedin.svg",
+    link: "https://www.linkedin.com/in/ice-karimbaeva-73b91797/",
   },
   {
-    name: "Instagram",
-    src: "/instagram.svg",
+    name: "Github",
+    src: "/github.svg",
+    link: "https://github.com/alive2020",
   },
 ];
 
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
-    urlProject: "https://alive2020.github.io/my_portfolio/",
-    urlGithub: "https://github.com/alive2020/next-portfolio",
+    title: "Book Library App",
+    text: "Simple Book Library App on React.js with Redux & API on Express ",
+    src: "/BookApp.png",
+    urlProject: "https://icebooklibrary.netlify.app/",
+    urlGithub: "https://github.com/alive2020/Book-App-React-Redux",
   },
   {
     title: "Space Themed Website",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
+    src: "/ComingSoon.png",
     urlProject: "https://alive2020.github.io/my_portfolio/",
     urlGithub: "https://github.com/alive2020/next-portfolio",
   },
   {
     title: "Nextjs Portfolio",
     text: "Frontend Engineer Portfolio on Next.js / Typescript / Tailwind / Framer Motion",
-    src: "/WebPortfolio.png",
+    src: "/NextPortfolio.png",
     urlProject: "https://alive2020.github.io/my_portfolio/",
     urlGithub: "https://github.com/alive2020/next-portfolio",
   },
   {
     title: "Matrix themed Website",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
+    src: "/ComingSoon.png",
     urlProject: "https://alive2020.github.io/my_portfolio/",
     urlGithub: "https://github.com/alive2020/next-portfolio",
   },
