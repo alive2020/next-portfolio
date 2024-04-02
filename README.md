@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## This is My Portfolio Website
+
+#### a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+**Check out the live demo [here](https://main--ice-portfolio-next.netlify.app/).**
 
 ## Getting Started
 

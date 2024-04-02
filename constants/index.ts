@@ -102,7 +102,7 @@ export const Projects = [
     title: "Nextjs Portfolio",
     text: "Frontend Engineer Portfolio on Next.js / Tailwind / Framer Motion / Typescript ",
     src: "/NextPortfolio.png",
-    urlProject: "https://alive2020.github.io/my_portfolio/",
+    urlProject: "https://main--ice-portfolio-next.netlify.app/",
     urlGithub: "https://github.com/alive2020/next-portfolio",
   },
   {
