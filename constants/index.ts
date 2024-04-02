@@ -86,21 +86,21 @@ export const Socials = [
 export const Projects = [
   {
     title: "Book Library App",
-    text: "Simple Book Library App on React.js with Redux & API on Express ",
+    text: "Book Library App on React.js / Redux & API on Express / Javascript / CSS ",
     src: "/BookApp.png",
     urlProject: "https://icebooklibrary.netlify.app/",
     urlGithub: "https://github.com/alive2020/Book-App-React-Redux",
   },
   {
-    title: "Space Themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/ComingSoon.png",
-    urlProject: "https://alive2020.github.io/my_portfolio/",
-    urlGithub: "https://github.com/alive2020/next-portfolio",
+    title: "Store Dashboard App",
+    text: "Dashboard App on Next.js / Syncfusion Library Charts / Tailwind / Framer Motion / Typescript ",
+    src: "/Dashboard.png",
+    urlProject: "https://main--ice-store-dashboard.netlify.app/",
+    urlGithub: "https://github.com/alive2020/Dashboard-Tutorial",
   },
   {
     title: "Nextjs Portfolio",
-    text: "Frontend Engineer Portfolio on Next.js / Typescript / Tailwind / Framer Motion",
+    text: "Frontend Engineer Portfolio on Next.js / Tailwind / Framer Motion / Typescript ",
     src: "/NextPortfolio.png",
     urlProject: "https://alive2020.github.io/my_portfolio/",
     urlGithub: "https://github.com/alive2020/next-portfolio",
