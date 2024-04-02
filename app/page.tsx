@@ -14,7 +14,7 @@ export default function Home() {
       >
         <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
           <h1 className="text-[50px] text-white font-semibold">
-            Hi, I'm Ice{" "}
+            Hi, I&apos;m Ice{" "}
             <p className="text-transparent bg-clip-text bg-gradient-to-r  from-red-100 to-indigo-400 ">
               {" "}
               Frontend Engineer{" "}
@@ -22,7 +22,8 @@ export default function Home() {
           </h1>
           <p className="text-gray-200 hidden md:block">
             Passionate about crafting immersive digital experiences that
-            captivate and inspire. Let's create something exceptional together.
+            captivate and inspire. Let&apos;s create something exceptional
+            together.
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
@@ -74,7 +75,7 @@ export default function Home() {
        from-gray-500 rounded-full overflow-hidden mt-5 md:h-72 md:w-72"
       >
         <Image
-          src="/myimg.png"
+          src="/myImg.png"
           alt=""
           width={400}
           height={400}

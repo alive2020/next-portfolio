@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import Link from "next/link";
 
 interface Props {
   image: string;
@@ -48,7 +47,7 @@ const ProjectCard = ({ image, title, text, urlProject, urlGithub }: Props) => {
         >
           <div className="absolute inset-0 w-full h-full rounded-md bg-black opacity-50 z-[-1]" />
           <div className="flex flex-col gap-20 py-3 z-[30]">
-            <h1 className="text-whote text-2xl font-semibold">{title}</h1>
+            <h1 className="text-white text-2xl font-semibold">{title}</h1>
             <p className="text-gray-200 text-[16px] mt-16">{text}</p>
           </div>
         </div>
