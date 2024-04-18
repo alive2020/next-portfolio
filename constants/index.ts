@@ -2,32 +2,27 @@ import { RxHome, RxPerson, RxDashboard, RxClipboard } from "react-icons/rx";
 
 export const SkillData = [
   {
-    name: "Html 5",
-    Image: "/html.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Css",
-    Image: "/css.png",
-    width: 80,
-    height: 80,
-  },
-  {
     name: "JavaScript",
     Image: "/js.png",
-    width: 65,
-    height: 65,
+    width: 70,
+    height: 70,
   },
   {
-    name: "Tailwind Css",
-    Image: "/tailwind.png",
-    width: 80,
-    height: 80,
+    name: "TypeScript",
+    Image: "/ts.png",
+    width: 70,
+    height: 70,
   },
+
   {
     name: "React",
     Image: "/react.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Next",
+    Image: "/next.png",
     width: 80,
     height: 80,
   },
@@ -37,36 +32,47 @@ export const SkillData = [
     width: 80,
     height: 80,
   },
-
   {
-    name: "TypeScript",
-    Image: "/ts.png",
+    name: "Html 5",
+    Image: "/html.png",
     width: 80,
     height: 80,
   },
   {
-    name: "Next js 13",
-    Image: "/next.png",
+    name: "Css",
+    Image: "/css.png",
+    width: 90,
+    height: 90,
+  },
+  {
+    name: "Styled-Components",
+    Image: "/styledcomponents.png",
     width: 80,
     height: 80,
   },
   {
-    name: "Framer Motion",
-    Image: "/framer.png",
+    name: "Tailwind Css",
+    Image: "/tailwind.png",
     width: 80,
     height: 80,
   },
   {
-    name: "Node js",
-    Image: "/node-js.png",
+    name: "Bootstrap",
+    Image: "/bootstrap.png",
     width: 80,
     height: 80,
   },
   {
-    name: "Mongo db",
-    Image: "/mongodb.png",
-    width: 40,
-    height: 40,
+    name: "Storybook",
+    Image: "/storybook.png",
+    width: 60,
+    height: 60,
+  },
+  {
+    name: "Jest",
+    Image: "/jest.png",
+    width: 70,
+    height: 70,
   },
 ];
 
@@ -84,6 +90,22 @@ export const Socials = [
 ];
 
 export const Projects = [
+  {
+    title: "Storybook App",
+    text: "Storybook with reusable UI components / Javascript / styled-components / Jest",
+    src: "/Storybook1.png",
+    urlProject:
+      "https://ice-storybook.netlify.app/?path=/story/components-molecules-modal-modal--confirm-modal-template&globals=locale:en",
+    urlGithub: "https://github.com/alive2020/fe-monorepo",
+  },
+
+  {
+    title: "UPKAIT Website",
+    text: "Real project displaying products on Next.js / Prismic / CSS / Sendbird",
+    src: "/Upkait.png",
+    urlProject: "https://upkait.vercel.app/",
+    urlGithub: "https://github.com/arstan001/next-upkait",
+  },
   {
     title: "Book Library App",
     text: "Book Library App on React.js / Redux & API on Express / Javascript / CSS ",
@@ -116,22 +138,22 @@ export const Projects = [
 
 export const NavLinks = [
   {
-    name: "/",
+    name: "Home",
     icon: RxHome,
     link: "/",
   },
   {
-    name: "/my-skills",
+    name: "My Skills",
     icon: RxPerson,
     link: "/my-skills",
   },
   {
-    name: "/my-projects",
+    name: "My Projects",
     icon: RxDashboard,
     link: "/my-projects",
   },
   {
-    name: "/contact-me",
+    name: "Contact Me",
     icon: RxClipboard,
     link: "/contact-me",
   },

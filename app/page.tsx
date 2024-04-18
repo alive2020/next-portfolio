@@ -27,10 +27,11 @@ export default function Home() {
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
-              href="/my-skills"
-              className="rounded-[20px] group relative bg-purple-900 hover:bg-purple-400 px-5 py-3 text-lg text-white max-w-[200px]"
+              href="#"
+              target="_blank"
+              className="rounded-[20px] group relative bg-purple-400 hover:bg-purple-900 px-5 py-3 text-lg text-white max-w-[200px]"
             >
-              Learn more
+              Resume
             </Link>
             <Link
               href="/my-projects"
@@ -53,9 +54,9 @@ export default function Home() {
       <div className="absolute flex bottom-20 z-[20] right-5 flex-col md:hidden gap-5">
         <Link
           href="/my-skills"
-          className="rounded-[20px] group bg-purple-900  hover:bg-purple-400 px-5 py-3 text-lg text-white max-w-[200px]"
+          className="rounded-[20px] group bg-purple-400 hover:bg-purple-900  px-5 py-3 text-lg text-white max-w-[200px]"
         >
-          Learn more
+          Resume
         </Link>
         <Link
           href="/my-projects"

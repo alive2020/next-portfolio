@@ -7,6 +7,9 @@ import Image from "next/image";
 import { Autoplay } from "swiper/modules";
 
 const Page = () => {
+  const firstLineSkills = SkillData.slice(0, 6);
+  const secondLineSkills = SkillData.slice(6);
+
   return (
     <div
       style={{ backgroundImage: "url(/dune2.webp)" }}
@@ -32,10 +35,10 @@ const Page = () => {
           }}
           speed={5000}
           modules={[Autoplay]}
-          className="max-w-[80%]"
+          className="max-w-[85%]"
         >
-          {SkillData.map((skill, index) => (
-            <SwiperSlide key={index}>
+          {firstLineSkills.map((skill, index) => (
+            <SwiperSlide key={index} className="self-center">
               <Image
                 src={skill.Image}
                 alt={skill.name}
@@ -55,10 +58,10 @@ const Page = () => {
           }}
           speed={5000}
           modules={[Autoplay]}
-          className="max-w-[80%]"
+          className="max-w-[85%]"
         >
-          {SkillData.map((skill, index) => (
-            <SwiperSlide key={index}>
+          {secondLineSkills.map((skill, index) => (
+            <SwiperSlide key={index} className="self-center">
               <Image
                 src={skill.Image}
                 alt={skill.name}

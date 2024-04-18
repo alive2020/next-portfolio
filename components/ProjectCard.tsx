@@ -60,7 +60,7 @@ const ProjectCard = ({ image, title, text, urlProject, urlGithub }: Props) => {
           style={{ textDecoration: "none", color: "inherit" }}
         >
           <button className="mr-4 rounded-[10px] border border-white px-2 py-1 text-white">
-            Project
+            Demo
           </button>
         </a>
 

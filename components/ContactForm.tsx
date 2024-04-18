@@ -37,12 +37,13 @@ const ContactForm = () => {
   return (
     <form ref={form} onSubmit={sendEmail}>
       <h2 className="text-2xl font-bold mb-5 text-white">Contact Me</h2>
-      <div className="mb-3 text-black">
+      <div className="mb-3 text-black ">
         <input
           type="text"
           placeholder="Your name"
           name="user_name"
-          className="w-full px-3 py-2 text-sm text-black-200 placeholder-gray-400 bg-white border-0 rounded shadow"
+          className="w-full px-3 py-2 text-sm text-black-200 placeholder-gray-400 bg-white border-0 rounded shadow 
+          focus-visible:outline-none"
         />
       </div>
       <div className="mb-3">
@@ -50,19 +51,19 @@ const ContactForm = () => {
           type="email"
           placeholder="Email"
           name="user_email"
-          className="w-full px-3 py-2 text-sm text-black-200 placeholder-gray-400 bg-white border-0 rounded shadow"
+          className="w-full px-3 py-2 text-sm text-black-200 placeholder-gray-400 bg-white border-0 rounded shadow focus-visible:outline-none"
         />
       </div>
       <div className="mb-3">
         <textarea
           placeholder="Your message"
           name="user_message"
-          className="w-full px-3 py-2 text-sm text-black-200 placeholder-gray-400 bg-white border-0 rounded shadow"
+          className="w-full px-3 py-2 text-sm text-black-200 placeholder-gray-400 bg-white border-0 rounded shadow focus-visible:outline-none"
         />
       </div>
       <button
         type="submit"
-        className="px-6 mb-10 py-3 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-purple-700 hover:bg-purple-400 rounded-[5px]"
+        className="px-6 mb-10 py-3 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-purple-400 hover:bg-purple-900 rounded-[5px]"
       >
         Send a message
       </button>
