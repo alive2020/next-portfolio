@@ -29,7 +29,7 @@ export default function Home() {
             <Link
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/1--fezPvgTpRJI5RoMKdvBpgVT9Lk_FaG/view?usp=sharing"
+              href="https://drive.google.com/file/d/188d6OCxjTbr2Twkiz5zl19y-brjr3atq/view?usp=sharing"
               className="rounded-[20px] group relative bg-purple-400 hover:bg-purple-900 px-5 py-3 text-lg text-white max-w-[200px]"
             >
               Resume

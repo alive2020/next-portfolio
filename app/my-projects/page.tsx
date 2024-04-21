@@ -8,21 +8,20 @@ const Page = () => {
   return (
     <div
       style={{ backgroundImage: "url(/dune4.jpg)" }}
-      className="w-screen min-h-screen flex items-center justify-center bg-cover bg-center overflow-visible"
+      className="w-screen h-screen flex flex-col items-center justify-center bg-center bg-cover overflow-y-scroll"
     >
-      <div className="container mx-auto py-4 flex items-center justify-center pb-20 overflow-y-scroll">
-        <div className="flex flex-wrap justify-center gap-10 p-10 mb-20 h-[70vh]">
-          {Projects.map((project, index) => (
-            <ProjectCard
-              key={index}
-              title={project.title}
-              text={project.text}
-              image={project.src}
-              urlProject={project.urlProject}
-              urlGithub={project.urlGithub}
-            />
-          ))}
-        </div>
+      <div className="flex flex-wrap justify-between max-w-[80%] max-h-[80%] ">
+        {Projects.map((project, index) => (
+          <ProjectCard
+            key={index}
+            title={project.title}
+            text={project.text}
+            image={project.src}
+            urlProject={project.urlProject}
+            urlGithub={project.urlGithub}
+          />
+        ))}
+        <div className="w-[450px] h-[100px] "> </div>
       </div>
     </div>
   );

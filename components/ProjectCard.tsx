@@ -23,7 +23,7 @@ const ProjectCard = ({ image, title, text, urlProject, urlGithub }: Props) => {
   return (
     <div
       onClick={handleFlip}
-      className="w-[450px] h-[280px] rounded-md cursor-pointer mb-4"
+      className="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 h-[280px] rounded-md cursor-pointer mb-4 p-6"
     >
       <motion.div
         className="flip-card-inner w-full h-full"
@@ -46,9 +46,11 @@ const ProjectCard = ({ image, title, text, urlProject, urlGithub }: Props) => {
           className="w-full h-full group relative flip-card-back bg-cover bg-center text-white rounded-lg p-4"
         >
           <div className="absolute inset-0 w-full h-full rounded-md bg-black opacity-50 z-[-1]" />
-          <div className="flex flex-col gap-20 py-3 z-[30]">
-            <h1 className="text-white text-2xl font-semibold">{title}</h1>
-            <p className="text-gray-200 text-[16px] mt-16">{text}</p>
+          <div className="flex flex-col gap-10 py-3 z-[30]">
+            <h1 className="text-white text-2xl font-semibold sm:text-xl">
+              {title}
+            </h1>
+            <p className="text-gray-200 text-[14px] mt-16">{text}</p>
           </div>
         </div>
       </motion.div>
