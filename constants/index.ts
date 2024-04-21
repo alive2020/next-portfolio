@@ -129,7 +129,7 @@ export const Projects = [
   },
   {
     title: "Notes App",
-    text: "Notes App on React.js with Typescript.",
+    text: "Notes App on React.js with Typescript",
     src: "/NotesApp.png",
     urlProject: "https://ice-notes-app.netlify.app/",
     urlGithub: "https://github.com/alive2020/Note-Typescript-App",

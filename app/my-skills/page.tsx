@@ -44,6 +44,7 @@ const Page = () => {
                 alt={skill.name}
                 width={skill.width}
                 height={skill.height}
+                style={{ aspectRatio: "1/1" }}
               />
             </SwiperSlide>
           ))}
@@ -67,6 +68,7 @@ const Page = () => {
                 alt={skill.name}
                 width={skill.width}
                 height={skill.height}
+                style={{ aspectRatio: "1/1" }}
               />
             </SwiperSlide>
           ))}

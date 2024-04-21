@@ -8,9 +8,9 @@ const Page = () => {
   return (
     <div
       style={{ backgroundImage: "url(/dune4.jpg)" }}
-      className="w-screen min-h-screen flex items-center justify-center bg-cover bg-center overflow-y-scroll"
+      className="w-screen min-h-screen flex items-center justify-center bg-cover bg-center overflow-visible"
     >
-      <div className="container mx-auto  py-4 flex items-center justify-center ">
+      <div className="container mx-auto py-4 flex items-center justify-center pb-20 overflow-y-scroll">
         <div className="flex flex-wrap justify-center gap-10 p-10 mb-20 h-[70vh]">
           {Projects.map((project, index) => (
             <ProjectCard
