@@ -107,9 +107,9 @@ export const Projects = [
     urlGithub: "https://github.com/arstan001/next-upkait",
   },
   {
-    title: "Book Library App",
+    title: "Books Library App",
     text: "Book Library App on React.js / Redux & API on Express / Javascript / CSS ",
-    src: "/BookApp.png",
+    src: "/BooksApp.png",
     urlProject: "https://icebooklibrary.netlify.app/",
     urlGithub: "https://github.com/alive2020/Book-App-React-Redux",
   },
