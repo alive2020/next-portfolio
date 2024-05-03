@@ -7,19 +7,21 @@ import Image from "next/image";
 import { Autoplay } from "swiper/modules";
 
 const Page = () => {
-  const firstLineSkills = SkillData.slice(0, 6);
-  const secondLineSkills = SkillData.slice(6);
+  const firstLineSkills = SkillData.slice(0, 7);
+  const secondLineSkills = SkillData.slice(7);
 
   return (
     <div
-      style={{ backgroundImage: "url(/dune2.webp)" }}
+      style={{
+        backgroundColor: "#141414",
+      }}
       className="h-screen w-screen flex items-center justify-center bg-cover bg-center"
     >
       <div className="flex flex-col gap-20 max-w-[80%] text-center items-center">
         <div className="flex flex-col items-center gap-4">
           <h1 className="font-semibold text-white text-[50px]">
             Skills{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-100 to-[#9EF500]">
               {" "}
               &{" "}
             </span>

@@ -7,7 +7,9 @@ import React from "react";
 const Page = () => {
   return (
     <div
-      style={{ backgroundImage: "url(/dune4.jpg)" }}
+      style={{
+        backgroundColor: "#141414",
+      }}
       className="w-screen h-screen flex flex-col items-center justify-center bg-center bg-cover overflow-y-scroll"
     >
       <div className="flex flex-wrap justify-between max-w-[80%] max-h-[80%] ">

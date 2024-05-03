@@ -33,6 +33,18 @@ export const SkillData = [
     height: 80,
   },
   {
+    name: "NodeExpress",
+    Image: "/nodeExp.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "MongoDB",
+    Image: "/mongoDb.png",
+    width: 80,
+    height: 80,
+  },
+  {
     name: "Html 5",
     Image: "/html.png",
     width: 80,

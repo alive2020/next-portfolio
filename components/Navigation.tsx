@@ -39,7 +39,7 @@ const Navigation = () => {
           <nav.icon
             data-for="registerTip"
             className={`w-[24px] h-[24px] ${
-              path === nav.link ? "text-purple-300" : "text-white"
+              path === nav.link ? "text-[#9EF500]" : "text-white"
             } hover:scale-110`}
           />
         </Link>
