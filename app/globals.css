@@ -20,3 +20,12 @@ body {
 .flip-card-back {
   transform: rotateY(180deg);
 }
+
+.resumeBtn {
+  background-color: #9ef500;
+  color: #141414;
+}
+
+.resumeBtn:hover {
+  background-color: #cfff8c;
+}
