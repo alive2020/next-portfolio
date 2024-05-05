@@ -44,6 +44,7 @@ const ContactForm = () => {
           name="user_name"
           className="w-full px-3 py-2 text-sm text-black-200 placeholder-gray-400 bg-white border-0 rounded shadow 
           focus-visible:outline-none"
+          required
         />
       </div>
       <div className="mb-3">
@@ -52,6 +53,7 @@ const ContactForm = () => {
           placeholder="Email"
           name="user_email"
           className="w-full px-3 py-2 text-sm text-black-200 placeholder-gray-400 bg-white border-0 rounded shadow focus-visible:outline-none"
+          required
         />
       </div>
       <div className="mb-3">
@@ -59,6 +61,7 @@ const ContactForm = () => {
           placeholder="Your message"
           name="user_message"
           className="w-full px-3 py-2 text-sm text-black-200 placeholder-gray-400 bg-white border-0 rounded shadow focus-visible:outline-none"
+          required
         />
       </div>
       <button
