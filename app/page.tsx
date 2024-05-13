@@ -28,7 +28,7 @@ export default function Home() {
             <Link
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/1tT92DxDsakIz0miFA8HHuAJCZmaYdpqb/view?usp=sharing"
+              href="https://drive.google.com/file/d/1-vIbWi9EIU0RLw69cnvWwMWCYLmIh5Jl/view?usp=sharing"
               className="resumeBtn rounded-[20px] group relative px-5 py-3 text-lg text-gray-800 max-w-[200px]"
             >
               Resume
