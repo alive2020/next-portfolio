@@ -1,14 +1,24 @@
-## This is My Portfolio Website
+# Next.js Portfolio
 
-#### a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is my personal portfolio website, built using Next.js and styled with Tailwind CSS. 
+The project showcases my skills, projects, and contact information, and includes a link to my resume.
 
 **Check out the live demo [here](https://main--ice-portfolio-next.netlify.app/).**
 
 ## Getting Started
 
-First, run the development server:
+First, clone the repository and install the dependencies:
 
 ```bash
+git clone https://github.com/alive2020/next-portfolio.git
+cd next-portfolio
+npm install
+```
+
+Then, run the development server:
+
+```bash
+Copy code
 npm run dev
 # or
 yarn dev
@@ -17,24 +27,34 @@ pnpm dev
 # or
 bun dev
 ```
+Open http://localhost:3000 with your browser to see the result.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+You can start editing the page by modifying app/page.tsx. The page auto-updates as you edit the file.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Dependencies
+- Next.js - The React Framework
+- EmailJS - Send emails directly from your client-side JavaScript code
+- Tailwind CSS - A utility-first CSS framework
+- React Icons - Include popular icons in your React projects
+- Framer Motion - A library to create animations
+- Swiper - Modern touch slider
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Available Scripts
 
-## Learn More
+In the project directory, you can run:
 
-To learn more about Next.js, take a look at the following resources:
+### `npm run dev`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### `npm run build`
 
-## Deploy on Vercel
+Builds the app for production to the `.next` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### `npm start`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Starts the application in production mode. Make sure you have already run `npm run build`.
+
+### `npm run lint`
+
+Runs ESLint to check for linting errors.
