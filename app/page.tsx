@@ -25,19 +25,19 @@ export default function Home() {
             Let&apos;s create something exceptional together.
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
-            <Link
+            {/* <Link
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/1-vIbWi9EIU0RLw69cnvWwMWCYLmIh5Jl/view?usp=sharing"
+              href=""
               className="resumeBtn rounded-[20px] group relative px-5 py-3 text-lg text-gray-800 max-w-[200px]"
             >
               Resume
-            </Link>
+            </Link> */}
             <Link
               href="/my-projects"
-              className="rounded-[20px] group relative bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
+              className="resumeBtn rounded-[20px] group relative bg-transparent px-5 py-3 text-lg text-white max-w-[200px]"
             >
-              <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
+              {/* <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" /> */}
               My projects
             </Link>
             <Link
@@ -62,13 +62,13 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="absolute flex  bottom-20 z-[20] right-5 flex-col md:hidden gap-5">
-        <Link
+      <div className="absolute flex  bottom-40 z-[20] right-5 flex-col md:hidden gap-5">
+        {/* <Link
           href="/my-skills"
           className="resumeBtn rounded-[20px] group px-5 py-3 text-lg text-white w-[160px] max-w-[200px] "
         >
           Resume
-        </Link>
+        </Link> */}
         <Link
           href="/my-projects"
           className="rounded-[20px] group bg-transparent border border-white px-5 py-3 text-lg text-white w-[160px] max-w-[200px] group-hover:opacity-20"
