@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { NavLinks } from "@/constants";
 import Link from "next/link";
+import { Tooltip } from "react-tooltip";
 
 import { usePathname } from "next/navigation";
 import Transition from "./Transition";
@@ -35,7 +36,15 @@ const Navigation = () => {
     >
       {isRouting && <Transition />}
       {NavLinks.map((nav) => (
-        <Link key={nav.name} href={nav.link} className="mb-16 ">
+        <Link
+          key={nav.name}
+          href={nav.link}
+          className="mb-16 "
+          data-tip={nav.name}
+          data-tooltip-id="nav-tooltip"
+          data-tooltip-content={nav.name}
+          data-tooltip-place="top"
+        >
           <nav.icon
             data-for="registerTip"
             className={`w-[24px] h-[24px] ${
@@ -44,6 +53,7 @@ const Navigation = () => {
           />
         </Link>
       ))}
+      <Tooltip id="nav-tooltip" />
     </div>
   );
 };
